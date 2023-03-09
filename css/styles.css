@@ -1,0 +1,85 @@
+:root {
+  --main-background-color: #ffffff;
+  --main-text-color: #434455;
+  --secondary-text-color: #4d5ae5;
+  --main-title-color: #2e2f42;
+  --secondary-title-color: #ffffff;
+  --button-bg-color: #f4f4fd;
+}
+
+body {
+  background-color: var(--main-background-color);
+  color: var(--main-text-color);
+}
+.list {
+  list-style: none;
+}
+.section-title {
+  color: var(--main-title-color);
+}
+
+/* Logo */
+
+.logo {
+  color: var(--main-title-color);
+  text-decoration: none;
+}
+.logo .logo-w {
+  color: var(--secondary-text-color);
+}
+
+/* Navigation */
+.nav-list .nav-link {
+  color: var(--main-title-color);
+  text-decoration: none;
+}
+
+.addr-list .mail-link,
+.addr-list .tel-link {
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+.addr-list .mail-link:hover,
+.addr-list .mail-link:focus {
+  color: var(--secondary-text-color);
+}
+.addr-list .tel-link:hover,
+.addr-list .tel-link:focus {
+  color: var(--secondary-text-color);
+}
+
+/* Hero */
+.section.hero {
+  background-color: var(--main-title-color);
+}
+.section-title.hero-title {
+  color: var(--main-background-color);
+}
+.btn {
+  cursor: pointer;
+  background-color: var(--secondary-text-color);
+  color: var(--secondary-title-color);
+  border: none;
+}
+
+/* Portfolio */
+.button {
+  cursor: pointer;
+  background-color: var(--button-bg-color);
+  color: var(--secondary-text-color);
+  border: none;
+}
+.button:hover,
+.button:focus {
+  background-color: var(--secondary-text-color);
+  color: var(--main-background-color);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--main-title-color);
+}
+.logo.logo-stud,
+.foot-text {
+  color: var(--main-background-color);
+}
