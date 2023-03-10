@@ -64,17 +64,12 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
-.addr-list .mail-link,
-.addr-list .tel-link {
+.addr-list .address-link {
   color: var(--main-text-color);
   text-decoration: none;
 }
-.addr-list .mail-link:hover,
-.addr-list .mail-link:focus {
-  color: var(--list-color);
-}
-.addr-list .tel-link:hover,
-.addr-list .tel-link:focus {
+.addr-list .address-link:hover,
+.addr-list .address-link:focus {
   color: var(--list-color);
 }
 
@@ -88,6 +83,7 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 .section-title {
@@ -103,7 +99,7 @@ body {
   background-color: var(--secondary-text-color);
   color: var(--secondary-title-color);
   border: none;
-
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -111,10 +107,14 @@ body {
 }
 
 /* Section skills */
+.section-title.transparent {
+  visibility: hidden;
+}
 .section-title.pro-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   text-align: left;
 }
 .text {
