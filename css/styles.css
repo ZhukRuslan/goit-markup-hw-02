@@ -160,13 +160,15 @@ body {
   color: var(--main-background-color);
 }
 .section-title.works-title {
+  color: var(--main-title-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   text-align: left;
 }
 .pro-text {
-  font-weight: 400;
+  color: var(--main-text-color);
   font-size: 16px;
   line-height: 1.5;
 }
